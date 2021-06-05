@@ -1,0 +1,109 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Linea superior*/
+header{
+	font-family: arial, helvetica;
+	background: #C3A99F;
+	text-align: right;
+    width: 100%;
+    height: 75px;
+    max-width: 100%;
+    width: 100%;
+    border: #A59088 5px solid;
+	float: left;
+}
+
+.ancho{
+	width: 80%;
+    height: 70px;
+    margin: auto;
+    background: #C3A99F;
+
+}
+.logo{
+	width: 30%;
+    height: 70px;
+    background: #C3A99F;
+    float: left;
+}
+.logo p a{
+	color: black;
+	font-size: 40px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: fshink;
+	text-align: left;
+	letter-spacing: 1px;
+}
+nav{
+	width: 70%;
+    height: 70px;
+    background: #C3A99F;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+    text-align:center;
+    position: center;
+
+}
+
+nav ul li{
+	display: inline;
+
+}
+nav ul li a{
+	color: black;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: fbon;
+}
+nav ul li a:hover{
+	color: #BB603B;
+}
+@font-face{
+	font-family: fbon;
+	src: url(fuentes/BOD_R.ttf);
+}
+
+p.imag {
+  text-align: center;
+}
+h1{
+	font-family: fbon;
+	color: #876C61;
+}
+table tr td a p{
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: fbon;
+	text-align: left;
+	letter-spacing: 1px;
+}
+table tr td a{
+	text-decoration: none;
+	text-align: center;
+}
+aside{
+	top: 45px;
+  margin: 45px auto 0 auto;
+  height: 20px; 
+  position:right; 
+  right: 5%;
+}
+.container{
+	top: 45px;
+  margin: 380px auto 0 auto;
+  height: 20px; 
+  position:right; 
+  right: 5%;
+}

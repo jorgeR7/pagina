@@ -1,0 +1,56 @@
+
+.dqs{
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    max-width: 1000px;
+    
+    }
+    .tex1{
+        position: absolute;
+        top: 95px;
+        left: 40%;
+        font-family: fbon;
+        font-size: 25px;
+        color: #654437;
+        font-weight: bold;
+    }
+    @font-face{
+        font-family: fbon;
+        src: url(fuentes/BOD_R.ttf);
+    }
+    .linea {
+      border-top: 2px solid #D1AB9D;
+      height: 100%;
+      max-width: 90%;
+      padding: 0;
+      margin: 10px auto 0 auto;
+    }
+    .linea2 {
+      border-top: 2px solid #D1AB9D;
+      height: 90%;
+      max-width: 90%;
+      padding: 0;
+      margin: 10px auto 0 auto;
+      color: #654437;
+    }
+    .linea3 {
+      border-left: 2px solid #D1AB9D; 
+      height: 550px; 
+      position:absolute; 
+      left: 35%;
+     text-align:center;
+    }
+    div p{
+        font-family: fbon;
+        color: #654437;
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    div a p{
+        top: 130px;
+      margin: 10px auto 0 auto;
+      left: 45%;
+    }
+    
